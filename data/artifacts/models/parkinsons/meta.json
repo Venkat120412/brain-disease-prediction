@@ -1,0 +1,58 @@
+{
+  "trained_at": "2026-10-27T16:48:26.694769+00:00",
+  "selected_features": [
+    "MDVP_Fo",
+    "MDVP_Flo",
+    "MDVP_Jitter_Abs",
+    "MDVP_Shimmer",
+    "Shimmer_APQ5",
+    "MDVP_APQ",
+    "Spread1",
+    "PPE"
+  ],
+  "feature_importance": [
+    {
+      "feature": "PPE",
+      "importance": 0.398075,
+      "rank": 1
+    },
+    {
+      "feature": "Spread1",
+      "importance": 0.383664,
+      "rank": 2
+    },
+    {
+      "feature": "MDVP_Flo",
+      "importance": 0.330943,
+      "rank": 3
+    },
+    {
+      "feature": "MDVP_Fo",
+      "importance": 0.326803,
+      "rank": 4
+    },
+    {
+      "feature": "MDVP_Jitter_Abs",
+      "importance": 0.312416,
+      "rank": 5
+    },
+    {
+      "feature": "MDVP_APQ",
+      "importance": 0.282504,
+      "rank": 6
+    },
+    {
+      "feature": "MDVP_Shimmer",
+      "importance": 0.266623,
+      "rank": 7
+    },
+    {
+      "feature": "Shimmer_APQ5",
+      "importance": 0.256461,
+      "rank": 8
+    }
+  ],
+  "train_rows": 800,
+  "test_rows": 200,
+  "seed": 42
+}

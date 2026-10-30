@@ -1,0 +1,58 @@
+{
+  "trained_at": "2026-10-27T16:48:26.558979+00:00",
+  "selected_features": [
+    "MMSE",
+    "FunctionalAssessment",
+    "ADL",
+    "FamilyHistoryAlzheimers",
+    "MemoryComplaints",
+    "BehavioralProblems",
+    "Confusion",
+    "PersonalityChanges"
+  ],
+  "feature_importance": [
+    {
+      "feature": "FunctionalAssessment",
+      "importance": 0.086064,
+      "rank": 1
+    },
+    {
+      "feature": "ADL",
+      "importance": 0.077301,
+      "rank": 2
+    },
+    {
+      "feature": "MMSE",
+      "importance": 0.067915,
+      "rank": 3
+    },
+    {
+      "feature": "MemoryComplaints",
+      "importance": 0.054812,
+      "rank": 4
+    },
+    {
+      "feature": "BehavioralProblems",
+      "importance": 0.039769,
+      "rank": 5
+    },
+    {
+      "feature": "PersonalityChanges",
+      "importance": 0.023745,
+      "rank": 6
+    },
+    {
+      "feature": "Confusion",
+      "importance": 0.020017,
+      "rank": 7
+    },
+    {
+      "feature": "FamilyHistoryAlzheimers",
+      "importance": 0.01664,
+      "rank": 8
+    }
+  ],
+  "train_rows": 1719,
+  "test_rows": 430,
+  "seed": 42
+}

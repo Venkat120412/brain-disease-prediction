@@ -1,0 +1,58 @@
+{
+  "trained_at": "2026-10-23T14:14:59.543990+00:00",
+  "selected_features": [
+    "age",
+    "avg_glucose_level",
+    "bmi",
+    "smoking_status_formerly smoked",
+    "smoking_status_never smoked",
+    "smoking_status_smokes",
+    "hypertension",
+    "heart_disease"
+  ],
+  "feature_importance": [
+    {
+      "feature": "avg_glucose_level",
+      "importance": 0.195436,
+      "rank": 1
+    },
+    {
+      "feature": "age",
+      "importance": 0.179774,
+      "rank": 2
+    },
+    {
+      "feature": "hypertension",
+      "importance": 0.100467,
+      "rank": 3
+    },
+    {
+      "feature": "bmi",
+      "importance": 0.069038,
+      "rank": 4
+    },
+    {
+      "feature": "heart_disease",
+      "importance": 0.062535,
+      "rank": 5
+    },
+    {
+      "feature": "smoking_status_never smoked",
+      "importance": 0.038805,
+      "rank": 6
+    },
+    {
+      "feature": "smoking_status_formerly smoked",
+      "importance": 0.025988,
+      "rank": 7
+    },
+    {
+      "feature": "smoking_status_smokes",
+      "importance": 0.016947,
+      "rank": 8
+    }
+  ],
+  "train_rows": 4000,
+  "test_rows": 1000,
+  "seed": 42
+}

@@ -1,0 +1,58 @@
+{
+  "trained_at": "2026-10-23T14:15:00.035880+00:00",
+  "selected_features": [
+    "Age",
+    "MMSE",
+    "CDR_SB",
+    "ADAS11",
+    "FunctionalActivities",
+    "Hippocampus",
+    "WholeBrainVolume",
+    "APOE4"
+  ],
+  "feature_importance": [
+    {
+      "feature": "FunctionalActivities",
+      "importance": 0.481416,
+      "rank": 1
+    },
+    {
+      "feature": "MMSE",
+      "importance": 0.42274,
+      "rank": 2
+    },
+    {
+      "feature": "ADAS11",
+      "importance": 0.408087,
+      "rank": 3
+    },
+    {
+      "feature": "Hippocampus",
+      "importance": 0.310841,
+      "rank": 4
+    },
+    {
+      "feature": "WholeBrainVolume",
+      "importance": 0.286083,
+      "rank": 5
+    },
+    {
+      "feature": "CDR_SB",
+      "importance": 0.260456,
+      "rank": 6
+    },
+    {
+      "feature": "Age",
+      "importance": 0.252474,
+      "rank": 7
+    },
+    {
+      "feature": "APOE4",
+      "importance": 0.073273,
+      "rank": 8
+    }
+  ],
+  "train_rows": 4000,
+  "test_rows": 1000,
+  "seed": 42
+}

@@ -1,0 +1,58 @@
+{
+  "trained_at": "2026-10-23T14:15:00.577263+00:00",
+  "selected_features": [
+    "MDVP_Flo",
+    "MDVP_Jitter",
+    "MDVP_Shimmer",
+    "NHR",
+    "HNR",
+    "RPDE",
+    "Spread1",
+    "D2"
+  ],
+  "feature_importance": [
+    {
+      "feature": "NHR",
+      "importance": 0.545398,
+      "rank": 1
+    },
+    {
+      "feature": "RPDE",
+      "importance": 0.512598,
+      "rank": 2
+    },
+    {
+      "feature": "HNR",
+      "importance": 0.508592,
+      "rank": 3
+    },
+    {
+      "feature": "MDVP_Shimmer",
+      "importance": 0.431182,
+      "rank": 4
+    },
+    {
+      "feature": "MDVP_Jitter",
+      "importance": 0.371707,
+      "rank": 5
+    },
+    {
+      "feature": "MDVP_Flo",
+      "importance": 0.341623,
+      "rank": 6
+    },
+    {
+      "feature": "D2",
+      "importance": 0.298207,
+      "rank": 7
+    },
+    {
+      "feature": "Spread1",
+      "importance": 0.294709,
+      "rank": 8
+    }
+  ],
+  "train_rows": 4000,
+  "test_rows": 1000,
+  "seed": 42
+}
